@@ -29,7 +29,7 @@ public class LoginTest extends base{
 	public driverscript engine;
 	
 	  
-	/*@Test
+	@Test
   public void logintest() {
 	  engine =new driverscript();
 	  engine.execute("Signin");
@@ -37,13 +37,13 @@ public class LoginTest extends base{
 	  	  
   
  }
- */
+ 
 	
   
   @Test
   public void logintest2() {
-	// engine =new driverscript();
-	  //engine.execute("Login");
+ engine =new driverscript();
+engine.execute("Login");
 	  log.info("This is Info");
 	  log.error("This is error");
 	  log.debug("This is debug");

@@ -5,15 +5,22 @@
  <listeners>
          
          <listener class-name="resources.listener"/>
-        
-         
+                
  </listeners>
-
+  
   <test name="User login">
     <classes>
       <class name="testcases.LoginTest"/>
           </classes>
       </test>
+
+
+  <test name="Sample Testing">
+    <classes>
+      <class name="testcases.NewTest"/>
+          </classes>
+      </test>
+
 
 
 </suite> <!-- Suite -->

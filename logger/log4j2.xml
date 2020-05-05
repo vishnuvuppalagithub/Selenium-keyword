@@ -14,7 +14,7 @@
     </Console>
   </Appenders>
   <Loggers>
-    <Root level="File">
+    <Root level="trace">
       <AppenderRef ref="File"/>
     </Root>
   </Loggers>

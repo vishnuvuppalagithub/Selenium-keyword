@@ -1,0 +1,4 @@
+17:36:51.817 [main] INFO  testcases.NewTest - This is in NewTest Info
+17:36:51.852 [main] FATAL testcases.NewTest - This is in NewTest Info
+17:36:51.855 [main] ERROR testcases.NewTest - This is in NewTest Info
+17:36:51.863 [main] DEBUG testcases.NewTest - This is in NewTest Info
